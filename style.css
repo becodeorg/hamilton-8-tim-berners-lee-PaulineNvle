@@ -1,0 +1,121 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: #817a83;
+}
+body{
+    margin: auto;
+    background-color: lightgray;
+    width: 50%;
+}
+main{
+    flex-direction: column;
+    align-items: center;
+   
+}
+p{
+    text-align: justify;
+    word-spacing: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+main > section {
+    margin: 30px;
+    box-shadow: 2px 2px 2px;
+    border-radius: 3px;
+}
+
+/* intro */
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px 10px 10px 10px;
+}
+.Tim-Berners-Lee{
+    border-radius: 50%;
+    border: solid 4px #ebebeb;
+}
+
+.son-nom{
+    font-weight: 800;
+    color: #dd5555;
+}
+
+button{
+    background-color: #dd5555;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 15px 15px;
+    color: white;
+    border: none;
+}
+.button{
+    color: white;
+}
+
+
+
+
+/* reseaux */
+.reseaux{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 50px 70px;
+}
+
+a{
+    font-size: 20px;
+    word-spacing: 5px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.fa-brands {
+    color: #aaa6ab;
+}
+/* FILMS */
+
+.movies{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    padding: 50px 40px;
+}
+
+h3{
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+
+.film1{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0px;
+}
+.film2{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0px;
+}
+.film3{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0px;
+}
+
+/* image films */
+
+.affiche {
+    width: 20%;
+    height: 20%;
+}
